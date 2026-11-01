@@ -201,3 +201,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DuckDB warehouse (rebuilt by the pipeline)
+*.duckdb
+*.duckdb.wal
+
+# Temporary Dagster instance created by dg dev
+.tmp_dagster_home_*/
+
+# Source dataset (download from Kaggle, see README)
+src/bakery_dagster/defs/data/*.csv

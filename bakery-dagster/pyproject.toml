@@ -5,7 +5,9 @@ version = "0.1.0"
 dependencies = [
     "dagster==1.13.28",
     "dagster-duckdb>=0.29.28",
+    "dagster-duckdb-pandas>=0.29.28",
     "pandas>=2.3.3",
+    "streamlit>=1.65.0",
 ]
 
 [dependency-groups]
